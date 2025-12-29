@@ -1,5 +1,4 @@
-
-.main-link{
+.main-link {
   position: fixed;
   top: 10px;
   left: 10px;
@@ -11,19 +10,18 @@
   text-decoration: none;
 }
 
-.main-link:hover{
+.main-link:hover {
   background-color: #0056b3;
 }
 
-
-/* From Uiverse.io by Creatlydev */ 
+/* From Uiverse.io by Creatlydev */
 .button {
   text-decoration: none;
   line-height: 1;
   border-radius: 1.5rem;
   overflow: hidden;
   position: relative;
-  box-shadow: 10px 10px 20px rgba(0,0,0,.05);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
   background-color: #fff;
   color: #121212;
   border: none;
@@ -35,7 +33,7 @@
   inset: 0;
   background-color: var(--clr);
   transform: translateX(-100%);
-  transition: transform .3s;
+  transition: transform 0.3s;
   z-index: 0;
 }
 
@@ -57,9 +55,9 @@
 
 .button__text {
   display: inline-block;
-  transition: color .2s;
+  transition: color 0.2s;
   padding: 2px 1.5rem 2px;
-  padding-left: .75rem;
+  padding-left: 0.75rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -72,4 +70,8 @@
 
 .button:hover .button-decor {
   transform: translate(0);
+}
+
+.button--green {
+  --clr: #00ad54;
 }
